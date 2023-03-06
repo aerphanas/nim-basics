@@ -5,7 +5,7 @@
   Pick an integer (as a mutable variable) and create a loop which will print every step of the Collatz conjecture. (Hint: use div for division)
 ]#
 
-var num:int = int(5)
+var num:int = 5
 
 while (num != 1):
   if (bool(num mod 2)):
